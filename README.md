@@ -1,8 +1,8 @@
 
 # Backend clone of social media app by using FastAPI
+> **_NOTE:_** Final project: https://github.com/stupns/FastStupnsAPI2
 ___
-## Final project: https://github.com/stupns/FastStupnsAPI2
-
+## Run local server:
 + uvicorn main:app --reload
 + http://127.0.0.1:8000/docs 
 

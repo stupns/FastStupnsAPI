@@ -85,3 +85,7 @@ Result will be:
         }
     },
 ```
+
+___
+
+[<-- prev step](2_JWT_AUTHENTICATION_README.md)___________________________________________________[next step -->](4_REGULAR_PARAM_README.md)

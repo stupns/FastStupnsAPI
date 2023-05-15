@@ -1,4 +1,5 @@
-
+# Implementation votes and likes
+___
 
 ```python
 class Vote(BaseModel):
@@ -51,3 +52,7 @@ def vote(vote: schemas.Vote, db: Session = Depends(database.get_db), current_use
 
         return {"message": "successfully deleted vote"}
 ```
+
+___
+
+[<-- prev step](REFACTORING_CODE_AND_FILES_README.MD)___________________________________________________[next step -->](../README.md)

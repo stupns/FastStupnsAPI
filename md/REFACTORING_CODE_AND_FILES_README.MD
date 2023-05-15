@@ -1,4 +1,5 @@
 ## Refactoring code
+___
 
 Folder routes:
 - post.py
@@ -156,3 +157,7 @@ router = APIRouter(
 
 http://127.0.0.1:8000/docs#/
 ![documents/img/25.png](../documents/img/25.png)
+
+___
+
+[<-- prev step](5_SECURITY_DATABASE_README.md)___________________________________________________[next step -->](VOTE_AND_LIKE_README.md)

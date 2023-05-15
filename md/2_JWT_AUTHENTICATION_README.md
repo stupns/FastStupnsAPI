@@ -1,4 +1,5 @@
 # Create user authentication
+___
 
 Create in folder routes next file auth.py:
 
@@ -158,4 +159,6 @@ def update_post(id: int, update_post: schemas.PostUpdate, db: Session = Depends(
     pass
 ```
 
+___
 
+[<-- prev step](1_3_DB_SCHEMAS_README.md)___________________________________________________[next step -->](3_RELATIONSHIPS_MODELS_README.md)

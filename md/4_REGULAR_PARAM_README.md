@@ -81,3 +81,7 @@ def get_posts(db: Session = Depends(get_db), current_user: int = Depends(get_cur
     posts = db.query(models.Post).filter(models.Post.title.contains(search)).all()
     return posts
 ```
+
+___
+
+[<-- prev step](3_RELATIONSHIPS_MODELS_README.md)___________________________________________________[next step -->](5_SECURITY_DATABASE_README.md)

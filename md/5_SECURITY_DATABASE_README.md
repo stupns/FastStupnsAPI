@@ -1,4 +1,5 @@
 # MANUAL
+___
 create config.py
 ```python
 from pydantic import BaseSettings
@@ -38,3 +39,7 @@ refactor code :
 SQLALCHEMY_DATABASE_URL = f"postgresql://{settings.DB_USERNAME}:{settings.DB_PASSWORD}@{settings.DB_HOST}:" \
                           f"{settings.DB_PORT}/{settings.DB_NAME}"
 ```
+
+___
+
+[<-- prev step](4_REGULAR_PARAM_README.md)___________________________________________________[next step -->](REFACTORING_CODE_AND_FILES_README.MD)

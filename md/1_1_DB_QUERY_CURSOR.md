@@ -1,4 +1,5 @@
 # Connect DB
+___
 
 ```python
 while True:
@@ -87,3 +88,7 @@ def update_post(id: int, post: Post):
 
 after fix bags: 
 ![documents/img/19.png](../documents/img/19.png)
+
+____
+
+[<-- prev step](1_SIMPLE_API_README.md)___________________________________________________[next step -->](1_2_DB_QUERY_ORM_README.md)

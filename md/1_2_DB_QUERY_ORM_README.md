@@ -1,4 +1,5 @@
 # Connect DB
+___
 
 main.py:
 ```python
@@ -124,3 +125,7 @@ def update_post(id: int, update_post: Post, db: Session = Depends(get_db)):
     post_query.update(update_post.dict(), synchronize_session=False)
     return {'data': post_query.first()}
 ```
+
+___
+
+[<-- prev step](1_1_DB_QUERY_CURSOR.md)___________________________________________________[next step -->](1_3_DB_SCHEMAS_README.md)

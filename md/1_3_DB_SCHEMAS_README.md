@@ -1,6 +1,7 @@
 # Alembic
+___
 
-create schemas.py and add code from main:
+Create schemas.py and add code from main:
 
 ```python
 class PostBase(BaseModel):
@@ -177,3 +178,6 @@ def get_user(id: int, db: Session = Depends(get_db)):
     return user
 ```
 
+___
+
+[<-- prev step](1_2_DB_QUERY_ORM_README.md)___________________________________________________[next step -->](2_JWT_AUTHENTICATION_README.md)
